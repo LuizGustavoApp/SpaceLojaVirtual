@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Space.LojaVirtual.Dominio.Entidades
 {
-    class Produto
+    public class Produto
     {
+        public int MyProperty { get; set; }
     }
 }
